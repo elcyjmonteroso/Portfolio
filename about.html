@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>About — Elcy Jean</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Cinzel:wght@500;700&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+  <link 
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+  rel="stylesheet">
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="site-header">
+    <div class="wrap">
+
+      <!-- LOGO -->
+      <a href="index.html" class="logo">Elcy Jean</a>
+
+      <!-- DESKTOP NAV (always visible on large screens) -->
+      <nav class="desktop-nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link active">About</a>
+        <a href="skill.html" class="nav-link">Skill</a>
+        <a href="background.html" class="nav-link">Background</a>
+        <a href="experience.html" class="nav-link">Experience</a>
+        <a href="contact.html" class="nav-link contact-btn">Contact</a>
+      </nav>
+
+      <!-- HAMBURGER (Bootstrap) -->
+      <button class="navbar-toggler d-lg-none menu-toggle"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#mobileNav"
+              aria-controls="mobileNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation">
+          <i class='bx bx-menu'></i>
+      </button>
+
+    </div>
+
+    <!-- MOBILE NAV (Bootstrap collapse) -->
+    <nav class="collapse mobile-nav" id="mobileNav">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="about.html" class="nav-link active">About</a>
+      <a href="skill.html" class="nav-link">Skill</a>
+      <a href="background.html" class="nav-link">Background</a>
+      <a href="experience.html" class="nav-link">Experience</a>
+      <a href="contact.html" class="nav-link contact-btn">Contact</a>
+    </nav>
+
+  </header>
+
+  <!-- About Section -->
+  <section class="about-section">
+
+    <!-- ABOUT CARD -->
+    <div class="about-card">
+      <div class="about-left">
+        <img src="assets/profile.png" alt="Elcy Jean">
+      </div>
+
+      <div class="about-right">
+        <h2><strong>Elcy Jean A. Monteroso</strong></h2>
+        <h6><strong>Bachelor of Science in Industrial Technology<br>
+            Major in Computer Technology</strong></h6>
+
+        <p class="about-text">
+          I’m a Computer Technology student with NC II certification in Computer Systems Servicing. I enjoy combining creativity with technical work — from designing clean layouts to handling basic systems and digital content. I thrive in environments that encourage learning, collaboration, and meaningful work.
+        </p>
+
+
+        <h3 class="details-title"><strong>Personal Details</strong></h3>
+
+          <div class="details-grid">
+            <div class="details-row">
+              <span class="label">Birthday:</span>
+              <span class="value">January 5, 2005</span>
+            </div>
+
+            <div class="details-row">
+              <span class="label">Address:</span>
+              <span class="value">Lucena City, Quezon</span>
+            </div>
+
+            <div class="details-row">
+              <span class="label">Nationality:</span>
+              <span class="value">Filipino</span>
+            </div>
+
+            <div class="details-row">
+              <span class="label">Languages:</span>
+              <span class="value">Filipino, English</span>
+            </div>
+          </div>
+
+
+      </div>
+    </div>
+
+
+  </section>
+
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-container">
+
+      <!-- LEFT SIDE -->
+      <div class="footer-left">
+        <h2 class="footer-cta-title">Ready to start<br>something great?</h2>
+
+        <a href="mailto:elcyjeanmonteroso@gmail.com" class="footer-cta-link">
+          Let’s bring <br> your ideas to life →
+        </a>
+
+        <p class="footer-year">© 2025 Elcy Jean A. Monteroso</p>
+      </div>
+
+      <!-- RIGHT SIDE -->
+      <div class="footer-right">
+
+        <!-- Explore -->
+        <div class="footer-column">
+          <h3 class="footer-column-title">Explore</h3>
+          <div class="footer-inline-links">
+            <a href="about.html">About</a>
+            <a href="skill.html">Skill</a>
+            <a href="background.html">Background</a>
+            <a href="experiences.html">Experience</a>
+            <a href="contact.html">Contact</a>
+          </div>
+        </div>
+
+        <!-- Social -->
+        <div class="footer-column">
+          <h3 class="footer-column-title">Social</h3>
+          <div class="footer-social-icons">
+            <a href="https://www.facebook.com/jean.monteroso.7"><i class='bx bxl-facebook'></i></a>
+            <a href="https://www.instagram.com/elcyjean_/"><i class='bx bxl-instagram'></i></a>
+            <a href="https://www.tiktok.com/@elcyjean"><i class='bx bxl-tiktok'></i></a>
+            <a href="https://www.linkedin.com/in/elcy-jean-monteroso-46333037b"><i class='bx bxl-linkedin'></i></a>
+          </div>
+        </div>
+
+        <!-- Get in touch -->
+        <div class="footer-column">
+          <h3 class="footer-column-title">Get in touch</h3>
+          <div class="footer-column-links">
+            <a href="mailto:elcyjeanmonteroso@gmail.com">elcyjeanmonteroso@gmail.com</a>
+            <span class="footer-contact-note">or</span>
+            <a href="contact.html">fill the form in contact</a>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+    <!-- JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
